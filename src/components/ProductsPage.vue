@@ -73,8 +73,7 @@
           color="rgb(0, 153, 255)"
           class="ma-2"
           variant="outlined"
-          href="https://m.me/gboxstorevn"
-          target="_blank"
+          @click="popupMessenger"
         ></v-btn>
       </v-col>
       <v-col
@@ -120,6 +119,9 @@ export default {
   },
   computed: {},
   methods: {
+    popupMessenger() {
+      window.open('https://m.me/gboxstorevn', '_blank')
+    },
     searchProducts() {
       const searchKeys = this.searchText
         .toLowerCase()
