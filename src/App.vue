@@ -1,7 +1,5 @@
 <template>
   <v-app>
-    <v-navigation-drawer color="grey-darken-2"></v-navigation-drawer>
-    <!-- <v-app-bar color="grey-lighten-2"></v-app-bar> -->
     <v-main>
       <ProductsPage></ProductsPage>
     </v-main>

@@ -1,5 +1,5 @@
 <template>
-  <v-col sm="6" cols="12">
+  <v-col sm="6" md="4" cols="12">
     <v-card max-width="400" :href="shopeeLink" target="_blank">
       <v-row no-gutters>
         <v-col cols="6">
