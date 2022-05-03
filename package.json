@@ -1,5 +1,5 @@
 {
-  "name": "vue3",
+  "name": "gbox-hobby",
   "version": "0.0.0",
   "scripts": {
     "serve": "vite preview",
